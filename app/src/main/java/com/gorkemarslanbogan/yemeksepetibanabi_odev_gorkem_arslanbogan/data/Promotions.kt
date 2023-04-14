@@ -6,3 +6,4 @@ data class Promotions(val id: Int,
                       val priceInfo: String,
                       val price: String,
                       val deliveryInfo: String)
+

@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
         binding.mainActivityObject = this
+        //bootcamp odev
         binding.toolbar.setTitle("Yemek Sepeti")
         binding.toolbar.setSubtitle("Esentepe Dede Korkut Sk. No: 28/1")
         setSupportActionBar(binding.toolbar)
@@ -32,7 +33,6 @@ class MainActivity : AppCompatActivity() {
         binding.rcCookers.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         binding.rcCookers.adapter = CustomRecylerViewAdapterCooker(cookers)
         binding.rcFoods.adapter = CustomRyclerViewAdapterFoods(foods)
-
 
     }
 

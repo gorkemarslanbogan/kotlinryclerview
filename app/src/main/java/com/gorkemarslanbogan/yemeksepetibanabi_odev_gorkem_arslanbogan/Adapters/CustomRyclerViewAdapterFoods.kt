@@ -21,7 +21,7 @@ class CustomRyclerViewAdapterFoods(private val itemList: ArrayList<Promotions>) 
             val view = LayoutInflater.from(parent.context).inflate(R.layout.rc_foods_view, parent, false)
             return ModelViewHolderFoods(view)
         }
-
+//
         override fun getItemCount() : Int {
             return itemList.size
         }

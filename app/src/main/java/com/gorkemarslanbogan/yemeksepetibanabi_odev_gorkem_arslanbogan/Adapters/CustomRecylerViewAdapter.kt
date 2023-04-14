@@ -22,7 +22,7 @@ class CustomRecylerViewAdapter(private val itemList: ArrayList<Promotions>) : Re
         val view = LayoutInflater.from(parent.context).inflate(R.layout.rc_promation_view, parent, false)
         return ModelViewHolder(view)
     }
-
+//
     override fun getItemCount() : Int {
        return itemList.size
     }

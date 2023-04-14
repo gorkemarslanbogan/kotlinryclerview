@@ -21,7 +21,7 @@ class CustomRecylerViewAdapterCooker(private val itemList: ArrayList<Promotions>
         val priceInfo: TextView = itemView.findViewById(R.id.textView3)
         val price: TextView = itemView.findViewById(R.id.textView5)
     }
-
+//
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ModelViewHolderCooker {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.rc_cookers_view, parent, false)
         return ModelViewHolderCooker(view)
