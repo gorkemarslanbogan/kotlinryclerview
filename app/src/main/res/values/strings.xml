@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Yemek Sepeti</string>
+    <string name="populer_dukkanlar">Popüler Dükkanlar</string>
+    <string name="mutfaklar">Mutfaklar</string>
+</resources>
